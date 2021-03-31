@@ -7,7 +7,7 @@ variable "application" {
   type        = string
 }
 variable "businessArea" {
-  description = "Enter name of the business area this application belong to."
+  description = "Name of the business area this application belongs to, one of CFT / Crime / Cross-Cutting."
   type        = string
 }
 variable "builtFrom" {
