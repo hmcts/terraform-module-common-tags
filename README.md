@@ -1,6 +1,6 @@
-# Terraform module to reference common tags.
+# Terraform module to reference common tags
 
-## Tagging policy documentation.
+## Tagging policy documentation
 
 https://tools.hmcts.net/confluence/display/DCO/Tagging+v0.4
 
@@ -26,3 +26,4 @@ No provider.
 | Name | Description |
 |------|-------------|
 | common\_tags | Returns a mapping of tags to assign. |
+
