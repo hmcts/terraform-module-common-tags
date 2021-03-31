@@ -1,7 +1,7 @@
 
 # Terraform module to reference common tags.
 
-## Tagging policy documentation
+## Tagging policy documentation.
 
 https://tools.hmcts.net/confluence/display/DCO/Tagging+v0.4
 
@@ -17,13 +17,14 @@ No provider.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| application | Enter name of the application that Utilizes this resource. | `string` | n/a | yes |
-| builtFrom | Enter name of the GitHub repository this application is being build from. | `string` | n/a | yes |
-| businessArea | Enter name of the business area this application belong to. | `string` | n/a | yes |
-| environment | Enter name of the environment to deploy the resource. | `string` | n/a | yes |
+| application | Name of the application, e.g. 'probate', 'divorce', use 'core' for platform infrastructure | `string` | n/a | yes |
+| builtFrom | Name of the GitHub repository this application is being built from. | `string` | n/a | yes |
+| businessArea | Name of the business area this application belongs to, one of CFT / Crime / Cross-Cutting. | `string` | n/a | yes |
+| environment | Name of the environment to deploy the resource | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| common\_tag | Returns a mapping of tags to assign. |
+| common\_tags | Returns a mapping of tags to assign. |
+
