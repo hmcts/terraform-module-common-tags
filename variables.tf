@@ -11,6 +11,6 @@ variable "businessArea" {
   type        = string
 }
 variable "builtFrom" {
-  description = "Enter name of the GitHub repository this application is being build from."
+  description = "Name of the GitHub repository this application is being built from."
   type        = string
 }
