@@ -1,5 +1,5 @@
 variable "environment" {
-  description = "Enter name of the environment to deploy the resource."
+  description = "Name of the environment to deploy the resource"
   type        = string
 }
 variable "application" {
