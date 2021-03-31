@@ -35,7 +35,7 @@ locals {
   env_mapping = {
     production  = ["ptl", "prod"]
     development = ["dev", "preview"]
-    staging     = ["ldata", "stg", "aat"]
+    staging     = ["ldata", "stg", "aat", "nle"]
     testing     = ["test", "perftest"]
     sandbox     = ["sandbox", "sbox"]
     demo        = ["demo"]
