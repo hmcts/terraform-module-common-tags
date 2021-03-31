@@ -1,4 +1,3 @@
-
 # Terraform module to reference common tags.
 
 ## Tagging policy documentation.
@@ -27,4 +26,3 @@ No provider.
 | Name | Description |
 |------|-------------|
 | common\_tags | Returns a mapping of tags to assign. |
-
