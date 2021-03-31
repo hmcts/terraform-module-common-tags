@@ -3,7 +3,7 @@ variable "environment" {
   type        = string
 }
 variable "application" {
-  description = "Enter name of the application that Utilizes this resource."
+  description = "Name of the application, e.g. 'probate', 'divorce', use 'core' for platform infrastructure"
   type        = string
 }
 variable "businessArea" {
