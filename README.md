@@ -16,10 +16,9 @@ No provider.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| application | Name of the application, e.g. 'probate', 'divorce', use 'core' for platform infrastructure | `string` | n/a | yes |
 | builtFrom | Name of the GitHub repository this application is being built from. | `string` | n/a | yes |
-| businessArea | Name of the business area this application belongs to, one of CFT / Crime / Cross-Cutting. | `string` | n/a | yes |
-| environment | Name of the environment to deploy the resource | `string` | n/a | yes |
+| environment | Name of the environment to deploy the resource. | `string` | n/a | yes |
+| product | Name of the product. | `string` | n/a | yes |
 
 ## Outputs
 
