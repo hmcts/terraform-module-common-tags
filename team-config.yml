@@ -1,3 +1,7 @@
+#  Tags are assigned to the corresponding resources being created.
+#    "application" represents team name, e.g. 'probate', 'divorce', use 'core' for platform infrastructure.
+#    "businessArea" represents the business area this application belongs to, one of CFT / Crime / Cross-Cutting.
+
 sds-platform:
   team: "platform operations"
   namespace: ""
@@ -6,4 +10,4 @@ sds-platform:
     build_notices_channel: "#platops-build-notices"
   tags:
     application: "core"
-    businessArea: "Cost-Cutting"
+    businessArea: "Cross-Cutting"
