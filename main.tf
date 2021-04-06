@@ -10,8 +10,8 @@
 
 locals {
   common_tags = {
-    application  = yamldecode(file("team-config.yml"))[var.product]["tags"]["application"]
-    businessArea = yamldecode(file("team-config.yml"))[var.product]["tags"]["businessArea"]
+    application  = yamldecode(file("${path.module}/team-config.yml"))[var.product]["tags"]["application"]
+    businessArea = yamldecode(file("${path.module}/team-config.yml"))[var.product]["tags"]["businessArea"]
     builtFrom    = var.builtFrom
     criticality  = local.criticality[var.environment]
     environment  = [for x in keys(local.env_mapping) : x if contains(local.env_mapping[x], var.environment)][0]
