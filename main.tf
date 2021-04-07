@@ -32,6 +32,7 @@ locals {
     ldata    = "High"
     sandbox  = "Low"
     nle      = "High"
+    nonprod  = "Medium"
   }
 
   env_mapping = {
