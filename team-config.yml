@@ -26,7 +26,7 @@ soc:
   team: "soc"
   namespace: ""
   slack:
-    contact_channel: "#dtspo-secops-chat"
+    contact_channel: "#devops-secops-chat"
     build_notices_channel: ""
   tags:
     application: "core"
