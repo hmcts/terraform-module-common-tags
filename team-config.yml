@@ -20,4 +20,14 @@ cft-platform:
     build_notices_channel: "#platops-build-notices"
   tags:
     application: "core"
-    businessArea: "CFT"    
+    businessArea: "CFT"
+
+soc:
+  team: "soc"
+  namespace: ""
+  slack:
+    contact_channel: "#sec-ops"
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"        
