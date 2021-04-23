@@ -26,7 +26,7 @@ soc:
   team: "soc"
   namespace: ""
   slack:
-    contact_channel: "#devops-secops-chat"
+    contact_channel: "#sec-ops"
     build_notices_channel: ""
   tags:
     application: "core"
