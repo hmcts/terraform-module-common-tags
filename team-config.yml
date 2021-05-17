@@ -32,7 +32,7 @@ soc:
     application: "core"
     businessArea: "Cross-Cutting"        
 
-acme:
+sdsacme:
   team: "platform operations"
   namespace: ""
   slack:
@@ -41,3 +41,13 @@ acme:
   tags:
     application: "core"
     businessArea: "Cross-Cutting"
+
+cftacme:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "core"
+    businessArea: "CFT"
