@@ -71,3 +71,65 @@ hubacme:
   tags:
     application: "core"
     businessArea: "Cross-Cutting"
+
+
+ethos:
+  team: "ethos"
+  namespace: ""
+  slack:
+    contact_channel: "#ethos-repl-service"
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
+
+heritage:
+  team: "heritage"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
+
+mi:
+  team: "mi"
+  namespace: ""
+  slack:
+    contact_channel: "#mi-data-platform"
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
+
+pet:
+  team: "pet"
+  namespace: ""
+  slack:
+    contact_channel: "#pet-devops"
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
+
+robotics:
+  team: "robotics"
+  namespace: ""
+  slack:
+    contact_channel: "#robotics"
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
+
+mgmt:
+  team: "mgmt"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
+
