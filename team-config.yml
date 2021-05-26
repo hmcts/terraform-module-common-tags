@@ -133,3 +133,12 @@ mgmt:
     application: "core"
     businessArea: "Cross-Cutting"
 
+hub:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
