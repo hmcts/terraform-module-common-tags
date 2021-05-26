@@ -32,47 +32,6 @@ soc:
     application: "core"
     businessArea: "Cross-Cutting"        
 
-sdsacme:
-  team: "platform operations"
-  namespace: ""
-  slack:
-    contact_channel: "#platops-help"
-    build_notices_channel: "#platops-build-notices"
-  tags:
-    application: "core"
-    businessArea: "Cross-Cutting"
-
-cftacme:
-  team: "platform operations"
-  namespace: ""
-  slack:
-    contact_channel: "#platops-help"
-    build_notices_channel: "#platops-build-notices"
-  tags:
-    application: "core"
-    businessArea: "CFT"
-
-socacme:
-  team: "soc"
-  namespace: ""
-  slack:
-    contact_channel: "#sec-ops"
-    build_notices_channel: ""
-  tags:
-    application: "core"
-    businessArea: "Cross-Cutting"
-
-hubacme:
-  team: "platform operations"
-  namespace: ""
-  slack:
-    contact_channel: "#platops-help"
-    build_notices_channel: "#platops-build-notices"
-  tags:
-    application: "core"
-    businessArea: "Cross-Cutting"
-
-
 ethos:
   team: "ethos"
   namespace: ""
@@ -133,3 +92,12 @@ mgmt:
     application: "core"
     businessArea: "Cross-Cutting"
 
+hub:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
