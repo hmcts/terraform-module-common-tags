@@ -102,7 +102,7 @@ hub:
     application: "core"
     businessArea: "Cross-Cutting"
 
-jenkins:
+sds-jenkins:
   team: "platform operations"
   namespace: ""
   slack:
