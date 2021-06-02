@@ -33,6 +33,7 @@ locals {
     sandbox  = "Low"
     nle      = "High"
     nonprod  = "Medium"
+    ptlsbox  = "Low"
   }
 
   env_mapping = {
@@ -40,7 +41,7 @@ locals {
     development = ["dev", "preview"]
     staging     = ["ldata", "stg", "aat", "nle", "nonprod"]
     testing     = ["test", "perftest"]
-    sandbox     = ["sandbox", "sbox"]
+    sandbox     = ["sandbox", "sbox", "ptlsbox"]
     demo        = ["demo"]
     ithc        = ["ithc"]
 
