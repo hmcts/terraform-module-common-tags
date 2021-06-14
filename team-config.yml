@@ -31,7 +31,7 @@ soc:
     build_notices_channel: ""
   tags:
     application: "security-operations-centre"
-    businessArea: "Cross-Cutting"        
+    businessArea: "Cross-Cutting"
 
 ethos:
   team: "ethos"
@@ -121,4 +121,13 @@ mailrelay:
     build_notices_channel: "#platops-build-notices"
   tags:
     application: "core"
+    businessArea: "Cross-Cutting"
+hmi:
+  team: "hmi"
+  namespace: ""
+  slack:
+    contact_channel: "#vh-devops"
+    build_notices_channel: ""
+  tags:
+    application: "hearing-management-interface"
     businessArea: "Cross-Cutting"
