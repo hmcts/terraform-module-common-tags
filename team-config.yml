@@ -30,7 +30,7 @@ soc:
     contact_channel: "#sec-ops"
     build_notices_channel: ""
   tags:
-    application: "core"
+    application: "security-operations-centre"
     businessArea: "Cross-Cutting"        
 
 ethos:
@@ -40,7 +40,7 @@ ethos:
     contact_channel: "#ethos-repl-service"
     build_notices_channel: ""
   tags:
-    application: "core"
+    application: "ethos"
     businessArea: "Cross-Cutting"
 
 heritage:
@@ -50,7 +50,7 @@ heritage:
     contact_channel: ""
     build_notices_channel: ""
   tags:
-    application: "core"
+    application: "heritage"
     businessArea: "Cross-Cutting"
 
 mi:
@@ -60,7 +60,7 @@ mi:
     contact_channel: "#mi-data-platform"
     build_notices_channel: ""
   tags:
-    application: "core"
+    application: "management-information"
     businessArea: "Cross-Cutting"
 
 pet:
@@ -70,7 +70,7 @@ pet:
     contact_channel: "#pet-devops"
     build_notices_channel: ""
   tags:
-    application: "core"
+    application: "pet"
     businessArea: "Cross-Cutting"
 
 robotics:
@@ -80,7 +80,7 @@ robotics:
     contact_channel: "#robotics"
     build_notices_channel: ""
   tags:
-    application: "core"
+    application: "robotics"
     businessArea: "Cross-Cutting"
 
 mgmt:
