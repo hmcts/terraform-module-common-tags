@@ -131,3 +131,57 @@ hmi:
   tags:
     application: "hearing-management-interface"
     businessArea: "Cross-Cutting"
+toffee:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
+netbox:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
+juror-digital:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "Juror Digital"
+    businessArea: "Cross-Cutting"
+ctsc:
+  team: "CTSC"
+  namespace: "ctsc"
+  slack:
+    contact_channel: "#ctsc-master-builds"
+    build_notices_channel: "#ctsc-master-builds"
+  tags:
+    application: 'courts-tribunals-service-centre'
+    businessArea: "Cross-Cutting"
+vh:
+  team: "Video Hearings"
+  namespace: "vh"
+  slack:
+    contact_channel: "#vh-devops"
+    build_notices_channel: "#vh-builds"
+  tags:
+    application: 'Video Hearings'
+    businessArea: "Cross-Cutting"
+wowza:
+  team: "Video Hearings"
+  namespace: "vh"
+  slack:
+    contact_channel: "#vh-devops"
+    build_notices_channel: "#vh-builds"
+  tags:
+    application: 'Video Hearings'
+    businessArea: "Cross-Cutting"
