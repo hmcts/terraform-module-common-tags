@@ -185,3 +185,12 @@ wowza:
   tags:
     application: 'Video Hearings'
     businessArea: "Cross-Cutting"
+pip:
+  team: "Publishing and Information"
+  namespace: "pip"
+  slack:
+    contact_channel: "#vh-devops"
+    build_notices_channel: "#vh-builds"
+  tags:
+    application: 'Publishing and Information'
+    businessArea: "Cross-Cutting"
