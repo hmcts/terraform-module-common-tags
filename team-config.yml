@@ -30,7 +30,7 @@ soc:
     contact_channel: "#sec-ops"
     build_notices_channel: ""
   tags:
-    application: "security-operations-centre"
+    application: "security"
     businessArea: "Cross-Cutting"
 
 ethos:
