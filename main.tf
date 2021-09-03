@@ -34,7 +34,7 @@ locals {
     nle       = "High"
     nonprod   = "Medium"
     ptlsbox   = "Low"
-    sbox-init = "Low"
+    sbox-int = "Low"
   }
 
   env_mapping = {
