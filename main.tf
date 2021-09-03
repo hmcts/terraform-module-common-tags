@@ -22,6 +22,7 @@ locals {
     aat       = "High"
     stg       = "High"
     prod      = "High"
+    prod-int  = "High"
     ithc      = "Medium"
     test      = "Medium"
     perftest  = "Medium"
@@ -33,19 +34,19 @@ locals {
     sandbox   = "Low"
     nle       = "High"
     nonprod   = "Medium"
+    nonprodi  = "Medium"
     ptlsbox   = "Low"
     sbox-int = "Low"
   }
 
   env_mapping = {
-    production  = ["ptl", "prod"]
+    production  = ["ptl", "prod", "prod-int"]
     development = ["dev", "preview"]
-    staging     = ["ldata", "stg", "aat", "nle", "nonprod"]
+    staging     = ["ldata", "stg", "aat", "nle", "nonprod", "nonprodi"]
     testing     = ["test", "perftest"]
     sandbox     = ["sandbox", "sbox", "ptlsbox", "sbox-int"]
     demo        = ["demo"]
     ithc        = ["ithc"]
-
   }
 
 }
