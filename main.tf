@@ -41,7 +41,7 @@ locals {
     development = ["dev", "preview"]
     staging     = ["ldata", "stg", "aat", "nle", "nonprod"]
     testing     = ["test", "perftest"]
-    sandbox     = ["sandbox", "sbox", "ptlsbox"]
+    sandbox     = ["sandbox", "sbox", "ptlsbox", "sbox-int"]
     demo        = ["demo"]
     ithc        = ["ithc"]
 
