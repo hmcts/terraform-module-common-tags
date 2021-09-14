@@ -203,3 +203,12 @@ cvp:
   tags:
     application: 'Cloud Video Platform'
     businessArea: "Cross-Cutting"
+shared-image-gallery:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: 'core'
+    businessArea: "Cross-Cutting"
