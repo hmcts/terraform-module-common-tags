@@ -43,6 +43,16 @@ ethos:
     application: "ethos"
     businessArea: "Cross-Cutting"
 
+et:
+  team: "et"
+  namespace: "et"
+  slack:
+    contact_channel: "#et-tech"
+    build_notices_channel: "#et-builds"
+  tags:
+    application: "employment-tribunals"
+    businessArea: "CFT"
+
 heritage:
   team: "heritage"
   namespace: ""
