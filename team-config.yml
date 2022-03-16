@@ -212,12 +212,3 @@ shared-image-gallery:
   tags:
     application: 'core'
     businessArea: "Cross-Cutting"
-bulk-scan:
-  team: "Bulk Scan"
-  namespace: "bsp"
-  slack:
-    contact_channel: "#rbs"
-    build_notices_channel: "#bsp-build-notices"
-  tags:
-    application: 'bsp'
-    businessArea: "Cross-Cutting"
