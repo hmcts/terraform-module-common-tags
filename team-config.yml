@@ -201,7 +201,7 @@ cvp:
     contact_channel: "#vh-devops"
     build_notices_channel: "#vh-builds"
   tags:
-    application: 'Cloud Video Platform'
+    application: 'cloud-video-platform'
     businessArea: "Cross-Cutting"
 shared-image-gallery:
   team: "platform operations"
