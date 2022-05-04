@@ -156,7 +156,7 @@ juror-digital:
     contact_channel: ""
     build_notices_channel: ""
   tags:
-    application: "Juror Digital"
+    application: "juror-digital"
     businessArea: "Cross-Cutting"
 ctsc:
   team: "CTSC"
