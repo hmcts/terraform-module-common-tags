@@ -174,7 +174,7 @@ vh:
     contact_channel: "#vh-devops"
     build_notices_channel: "#vh-builds"
   tags:
-    application: 'Video Hearings'
+    application: 'video-hearings-service'
     businessArea: "Cross-Cutting"
 wowza:
   team: "Video Hearings"
@@ -183,7 +183,7 @@ wowza:
     contact_channel: "#vh-devops"
     build_notices_channel: "#vh-builds"
   tags:
-    application: 'Video Hearings'
+    application: 'video-hearings-service'
     businessArea: "Cross-Cutting"
 pip:
   team: "Publishing and Information"
