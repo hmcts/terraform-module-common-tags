@@ -192,7 +192,7 @@ pip:
     contact_channel: "#vh-devops"
     build_notices_channel: "#vh-builds"
   tags:
-    application: 'Publishing and Information'
+    application: 'publishing-information-service'
     businessArea: "Cross-Cutting"
 cvp:
   team: "Cloud Video Platform"
