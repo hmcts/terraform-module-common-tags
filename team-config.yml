@@ -212,3 +212,93 @@ shared-image-gallery:
   tags:
     application: 'core'
     businessArea: "Cross-Cutting"
+
+caps:
+  team: "caps"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "caps"
+    businessArea: "Cross-Cutting"
+
+pcol:
+  team: "pcol"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "pcol"
+    businessArea: "Cross-Cutting"
+
+caseman:
+  team: "caseman"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "caseman"
+    businessArea: "Cross-Cutting"
+
+mcol:
+  team: "mcol"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "mcol"
+    businessArea: "Cross-Cutting"
+
+bais:
+  team: "bais"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "bais"
+    businessArea: "Cross-Cutting"
+
+darts-idam:
+  team: "darts-idam"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "darts-idam"
+    businessArea: "Cross-Cutting"
+
+sdt:
+  team: "sdt"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "heritage-secure-data-transfer"
+    businessArea: "Cross-Cutting"
+
+application-performance-management:
+  team: "apm"
+  namespace: "dynatrace"
+  slack:
+    contact_channel: "dynatrace-help-admins"
+    build_notices_channel: ""
+  tags:
+    application: "application-performance-management"
+    businessArea: "Cross-Cutting"
+
+template-management:
+  team: "template-management"
+  namespace: "docmosis"
+  slack:
+    contact_channel: "docmosis"
+    build_notices_channel: "docmosis-builds"
+  tags:
+    application: "template-management"
+    businessArea: "CFT"
