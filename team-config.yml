@@ -283,16 +283,6 @@ sdt:
     application: "heritage-secure-data-transfer"
     businessArea: "Cross-Cutting"
 
-application-performance-management:
-  team: "apm"
-  namespace: "dynatrace"
-  slack:
-    contact_channel: "dynatrace-help-admins"
-    build_notices_channel: ""
-  tags:
-    application: "application-performance-management"
-    businessArea: "Cross-Cutting"
-
 template-management:
   team: "template-management"
   namespace: "docmosis"
@@ -300,5 +290,5 @@ template-management:
     contact_channel: "docmosis"
     build_notices_channel: "docmosis-builds"
   tags:
-    application: "template-management"
+    application: "core"
     businessArea: "CFT"
