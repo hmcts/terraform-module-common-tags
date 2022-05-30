@@ -264,7 +264,7 @@ bais:
     businessArea: "Cross-Cutting"
 
 darts-idam:
-  team: "darts-idam"
+  team: "Digital Audio Recording Transcriber and Storage Identity Access Management"
   namespace: ""
   slack:
     contact_channel: ""
