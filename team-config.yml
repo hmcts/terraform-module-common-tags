@@ -214,7 +214,7 @@ shared-image-gallery:
     businessArea: "Cross-Cutting"
 
 caps:
-  team: "caps"
+  team: "Centralised Attachment of earnings Payment System"
   namespace: ""
   slack:
     contact_channel: ""
@@ -224,7 +224,7 @@ caps:
     businessArea: "Cross-Cutting"
 
 pcol:
-  team: "pcol"
+  team: "Possession Claim On-Line"
   namespace: ""
   slack:
     contact_channel: ""
@@ -234,7 +234,7 @@ pcol:
     businessArea: "Cross-Cutting"
 
 caseman:
-  team: "caseman"
+  team: "Case Management of County Courts"
   namespace: ""
   slack:
     contact_channel: ""
@@ -244,7 +244,7 @@ caseman:
     businessArea: "Cross-Cutting"
 
 mcol:
-  team: "mcol"
+  team: "Money Claim On-Line"
   namespace: ""
   slack:
     contact_channel: ""
@@ -274,7 +274,7 @@ darts-idam:
     businessArea: "Cross-Cutting"
 
 sdt:
-  team: "sdt"
+  team: "Secure Data Transfer"
   namespace: ""
   slack:
     contact_channel: ""
