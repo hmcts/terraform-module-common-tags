@@ -254,7 +254,7 @@ mcol:
     businessArea: "Cross-Cutting"
 
 bais:
-  team: "bais"
+  team: "BAU Integration Service"
   namespace: ""
   slack:
     contact_channel: ""
