@@ -293,7 +293,7 @@ template-management:
     application: "core"
     businessArea: "CFT"
 
-smallsystems-integration:
+small-systems-migration:
   team: "small-systems-migration"
   namespace: ""
   slack:
