@@ -50,7 +50,7 @@ heritage:
     contact_channel: ""
     build_notices_channel: ""
   tags:
-    application: "heritage"
+    application: "bais"
     businessArea: "Cross-Cutting"
 
 mi:
@@ -292,3 +292,13 @@ template-management:
   tags:
     application: "core"
     businessArea: "CFT"
+
+small-systems-migrations:
+  team: "small-systems-migrations"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "heritage-small-systems"
+    businessArea: "Cross-Cutting"
