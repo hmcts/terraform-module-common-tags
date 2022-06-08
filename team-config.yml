@@ -50,7 +50,7 @@ heritage:
     contact_channel: ""
     build_notices_channel: ""
   tags:
-    application: "heritage"
+    application: "bais"
     businessArea: "Cross-Cutting"
 
 mi:
