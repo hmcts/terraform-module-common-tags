@@ -302,3 +302,13 @@ small-systems-migrations:
   tags:
     application: "heritage-small-systems"
     businessArea: "Cross-Cutting"
+
+rcjg-migrations:
+  team: "rcjg-migrations"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "heritage-rcjg"
+    businessArea: "Cross-Cutting"
