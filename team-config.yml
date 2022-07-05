@@ -312,3 +312,13 @@ rcjg-migrations:
   tags:
     application: "heritage-rcjg"
     businessArea: "Cross-Cutting"
+
+sds-neuvector:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
