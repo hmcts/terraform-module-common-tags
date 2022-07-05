@@ -313,7 +313,7 @@ rcjg-migrations:
     application: "heritage-rcjg"
     businessArea: "Cross-Cutting"
 
-sds-neuvector:
+neuvector:
   team: "platform operations"
   namespace: ""
   slack:
