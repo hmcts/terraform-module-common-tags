@@ -22,6 +22,16 @@ cft-platform:
   tags:
     application: "core"
     businessArea: "CFT"
+    
+response:
+  team: "platform operations"
+  namespace: "response"
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "core"
+    businessArea: "CFT"
 
 soc:
   team: "soc"
