@@ -25,7 +25,7 @@ cft-platform:
     
 response:
   team: "platform operations"
-  namespace: ""
+  namespace: "response"
   slack:
     contact_channel: "#platops-help"
     build_notices_channel: "#platops-build-notices"
