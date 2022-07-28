@@ -342,3 +342,13 @@ core-infra:
   tags:
     application: "core"
     businessArea: "CFT"
+
+archiving-with-records-management:
+  team: "Archiving with Records Management"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "archiving"
+    businessArea: "Cross-Cutting"
