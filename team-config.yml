@@ -343,7 +343,7 @@ core-infra:
     application: "core"
     businessArea: "CFT"
 
-archiving-with-records-management:
+arm:
   team: "Archiving with Records Management"
   namespace: ""
   slack:
