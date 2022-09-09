@@ -352,3 +352,13 @@ arm:
   tags:
     application: "archiving"
     businessArea: "Cross-Cutting"
+ 
+idp-poc-infra:
+  team: "PlatOps Yellow"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "CFT"
