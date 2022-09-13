@@ -22,26 +22,6 @@ cft-platform:
   tags:
     application: "core"
     businessArea: "CFT"
-
-sds:
-  team: "platform operations"
-  namespace: ""
-  slack:
-    contact_channel: "#platops-help"
-    build_notices_channel: "#platops-build-notices"
-  tags:
-    application: "core"
-    businessArea: "Cross-Cutting"
-
-cft:
-  team: "platform operations"
-  namespace: ""
-  slack:
-    contact_channel: "#platops-help"
-    build_notices_channel: "#platops-build-notices"
-  tags:
-    application: "core"
-    businessArea: "CFT"
     
 response:
   team: "platform operations"
