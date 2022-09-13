@@ -352,3 +352,13 @@ arm:
   tags:
     application: "archiving"
     businessArea: "Cross-Cutting"
+
+enterprise:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: 'core'
+    businessArea: "Cross-Cutting"
