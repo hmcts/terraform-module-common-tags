@@ -303,24 +303,14 @@ template-management:
     application: "core"
     businessArea: "CFT"
 
-small-systems-migrations:
-  team: "small-systems-migrations"
+heritage-power-apps:
+  team: "heritage-power-apps"
   namespace: ""
   slack:
     contact_channel: ""
     build_notices_channel: ""
   tags:
-    application: "heritage-small-systems"
-    businessArea: "Cross-Cutting"
-
-rcjg-migrations:
-  team: "rcjg-migrations"
-  namespace: ""
-  slack:
-    contact_channel: ""
-    build_notices_channel: ""
-  tags:
-    application: "heritage-rcjg"
+    application: "heritage-power-apps"
     businessArea: "Cross-Cutting"
 
 neuvector:
