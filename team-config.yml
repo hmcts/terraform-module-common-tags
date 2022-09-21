@@ -303,7 +303,17 @@ template-management:
     application: "core"
     businessArea: "CFT"
 
-heritage-power-apps:
+small-systems-migrations:
+  team: "heritage-power-apps"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "heritage-power-apps"
+    businessArea: "Cross-Cutting"
+
+rcjg-migrations:
   team: "heritage-power-apps"
   namespace: ""
   slack:
