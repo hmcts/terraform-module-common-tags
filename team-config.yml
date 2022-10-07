@@ -371,4 +371,4 @@ martha:
     build_notices_channel: ""
   tags:
     application: "martha"
-    businessArea: "Cross-Cutting"
+    businessArea: "cross-cutting"
