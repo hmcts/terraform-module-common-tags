@@ -362,3 +362,13 @@ enterprise:
   tags:
     application: 'core'
     businessArea: "Cross-Cutting"
+
+martha:
+  team: "MARTHA"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "martha"
+    businessArea: "cross-cutting"
