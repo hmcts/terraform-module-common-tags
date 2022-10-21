@@ -18,29 +18,30 @@ locals {
   }
 
   criticality = {
-    sbox      = "Low"
-    aat       = "High"
-    stg       = "High"
-    prod      = "High"
-    prod-int  = "High"
-    ithc      = "Medium"
-    test      = "Medium"
-    perftest  = "Medium"
-    demo      = "Medium"
-    dev       = "Low"
-    ptl       = "High"
-    preview   = "Low"
-    ldata     = "High"
-    sandbox   = "Low"
-    nle       = "High"
-    nonprod   = "Medium"
-    nonprodi  = "Medium"
-    ptlsbox   = "Low"
+    sbox     = "Low"
+    aat      = "High"
+    stg      = "High"
+    prod     = "High"
+    prod-int = "High"
+    ithc     = "Medium"
+    test     = "Medium"
+    perftest = "Medium"
+    demo     = "Medium"
+    dev      = "Low"
+    ptl      = "High"
+    preview  = "Low"
+    ldata    = "High"
+    sandbox  = "Low"
+    nle      = "High"
+    nonprod  = "Medium"
+    nonprodi = "Medium"
+    ptlsbox  = "Low"
     sbox-int = "Low"
+    mgmt     = "High"
   }
 
   env_mapping = {
-    production  = ["ptl", "prod", "prod-int"]
+    production  = ["ptl", "prod", "prod-int", "mgmt", "management"]
     development = ["dev", "preview"]
     staging     = ["ldata", "stg", "aat", "nle", "nonprod", "nonprodi"]
     testing     = ["test", "perftest"]
