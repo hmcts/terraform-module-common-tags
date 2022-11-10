@@ -373,7 +373,7 @@ martha:
     application: "martha"
     businessArea: "cross-cutting"
 
-crime:
+crime-platform:
   team: "Crime"
   namespace: ""
   slack:
