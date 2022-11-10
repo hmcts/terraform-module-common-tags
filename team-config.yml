@@ -372,3 +372,13 @@ martha:
   tags:
     application: "martha"
     businessArea: "cross-cutting"
+
+crime-platform:
+  team: "Crime"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "Crime"
