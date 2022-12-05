@@ -17,6 +17,12 @@ locals {
     environment  = [for x in keys(local.env_mapping) : x if contains(local.env_mapping[x], var.environment)][0]
   }
 
+  additional_tags = {
+    autoShutdown = var.autoShutdown
+  }
+
+  all_tags = merge(local.common_tags, local.additional_tags)
+
   criticality = {
     sbox     = "Low"
     aat      = "High"
