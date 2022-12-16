@@ -10,19 +10,28 @@ No requirements.
 
 ## Providers
 
-No provider.
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| builtFrom | Name of the GitHub repository this application is being built from. | `string` | n/a | yes |
-| environment | Name of the environment to deploy the resource. | `string` | n/a | yes |
-| product | Name of the product. | `string` | n/a | yes |
+| <a name="input_autoShutdown"></a> [autoShutdown](#input\_autoShutdown) | Enable auto shutdown of resource | `bool` | `false` | no |
+| <a name="input_builtFrom"></a> [builtFrom](#input\_builtFrom) | Name of the GitHub repository this application is being built from. | `string` | n/a | yes |
+| <a name="input_environment"></a> [environment](#input\_environment) | Name of the environment to deploy the resource. | `string` | n/a | yes |
+| <a name="input_expiresAfter"></a> [expiresAfter](#input\_expiresAfter) | Enable auto deletion of resources. | `string` | `""` | no |
+| <a name="input_product"></a> [product](#input\_product) | Name of the product. | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| common\_tags | Returns a mapping of tags to assign. |
-
+| <a name="output_common_tags"></a> [common\_tags](#output\_common\_tags) | Returns a mapping of tags to assign. |

@@ -17,3 +17,8 @@ variable "autoShutdown" {
   type        = bool
   default     = false
 }
+variable "expiresAfter" {
+  description = "Enable auto deletion of resources."
+  type        = string
+  default     = ""
+}

@@ -21,7 +21,8 @@ locals {
     autoShutdown = var.autoShutdown
   }
 
-  all_tags = merge(local.common_tags, local.additional_tags)
+  expiresAfter = var.expiresAfter == "" ? formatdate("YYYY-MM-DD", timeadd(timestamp(), "720h")) : var.expiresAfter
+  all_tags = local.common_tags.environment == "sandbox" ? merge(local.common_tags, local.additional_tags, tomap({"expiresAfter" = local.expiresAfter})) : merge(local.common_tags, local.additional_tags)
 
   criticality = {
     sbox     = "Low"
