@@ -18,7 +18,11 @@ variable "autoShutdown" {
   default     = false
 }
 variable "expiresAfter" {
-  description = "Enable auto deletion of resources."
+  description = "Expiry date of the resource. Valid format 'YYYY-MM-DD'. "
   type        = string
-  default     = ""
+  default     = "0000-00-00"
+  validation {
+    condition     = can(regex("\\d{4}-\\d{2}-\\d{2}", var.expiresAfter))
+    error_message = "Valid date formast is 'YYYY-MM-DD'."
+  }
 }

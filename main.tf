@@ -21,7 +21,7 @@ locals {
     autoShutdown = var.autoShutdown
   }
 
-  expiresAfter = var.expiresAfter == "" ? formatdate("YYYY-MM-DD", timeadd(timestamp(), "720h")) : var.expiresAfter
+  expiresAfter = var.expiresAfter == "0000-00-00" ? formatdate("YYYY-MM-DD", timeadd(timestamp(), "720h")) : var.expiresAfter
   all_tags = local.common_tags.environment == "sandbox" ? merge(local.common_tags, local.additional_tags, tomap({"expiresAfter" = local.expiresAfter})) : merge(local.common_tags, local.additional_tags)
 
   criticality = {
