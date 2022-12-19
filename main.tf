@@ -22,9 +22,8 @@ locals {
   }
 
   expiresAfter = var.expiresAfter == "0000-00-00" ? formatdate("YYYY-MM-DD", timeadd(timestamp(), "720h")) : var.expiresAfter
-  expires_tags = local.common_tags.environment == "sandbox" ? tomap({"expiresAfter" = local.expiresAfter})) : {}
-  all_tags = merge(local.common_tags, local.additional_tags, local.expires_tags)
-
+  all_tags = local.common_tags.environment == "sandbox" ? merge(local.common_tags, local.additional_tags, tomap({"expiresAfter" = local.expiresAfter})) : merge(local.common_tags, local.additional_tags)
+  
   criticality = {
     sbox     = "Low"
     aat      = "High"
