@@ -41,11 +41,7 @@ module "ctags" {
 ```
 
 <!-- BEGIN_TF_DOCS -->
-# Terraform module to reference common tags
 
-## Tagging policy documentation
-
-https://tools.hmcts.net/confluence/display/DCO/Tagging+v0.4
 
 ## Inputs
 
