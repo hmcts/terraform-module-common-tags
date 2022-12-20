@@ -1,15 +1,12 @@
-formatter: "markdown table"
-header-from: main.tf
-footer-from: ""
-sections:
-  show: 
-    - requirements
-    - inputs 
-    - outputs
+
+settings:
+  hide-empty: true
+
+formatter: "md"
 
 output:
   file: README.md
-  mode: inject
-
-# settings:
-#   hide-empty: true
+  template: |-
+    <!-- BEGIN_TF_DOCS -->
+    {{ .Content }}
+    <!-- END_TF_DOCS -->
