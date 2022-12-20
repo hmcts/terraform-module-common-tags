@@ -5,6 +5,17 @@ A Terraform module to reference common tags.
 
 ## Usage
 
+This example shows usage of the module by passing only required  values.
+
+```terraform
+module "ctags" {
+  source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
+  environment = var.environment
+  product     = var.product
+  builtFrom   = var.builtFrom
+  }
+```
+
 This example shows you how to add  `expiresAfter` tag with a specific expiry date. `expiresAfter` tag only applies to sbox environment. 
 
 ```terraform
