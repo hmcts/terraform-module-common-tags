@@ -1,7 +1,8 @@
 # terraform-module-common-tags 
 
 A Terraform module to reference common tags.
-## [Tagging policy documentation](https://tools.hmcts.net/confluence/display/DCO/Tagging+v0.4)
+
+[Tagging policy documentation](https://tools.hmcts.net/confluence/display/DCO/Tagging+v0.4)
 
 ## Usage
 
@@ -13,10 +14,17 @@ module "ctags" {
   environment = var.environment
   product     = var.product
   builtFrom   = var.builtFrom
-  }
+}
 ```
 
-This example shows you how to add  `expiresAfter` tag with a specific expiry date. `expiresAfter` tag only applies to sbox environment. 
+### `expiresAfter`
+
+In the Sandbox environment resources must be tagged with an end date after which they are no longer needed.
+They will then be automatically deleted after this date.
+
+By default a tag will be added as `now() + 30 days`.
+
+You can customise this by setting an explicit date:
 
 ```terraform
 module "ctags" {
@@ -24,11 +32,11 @@ module "ctags" {
   environment = var.environment
   product     = var.product
   builtFrom   = var.builtFrom
-  expiresAfter = "2023-01-01" #YYYY-MM-DD
+  expiresAfter = "2023-01-01" # YYYY-MM-DD
 }
 ```
 
-This example shows you how to add  `expiresAfter` tag to `never` expire. 
+Or by setting it to never expire with a date far into the future:
 
 ```terraform
 module "ctags" {
