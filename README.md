@@ -19,7 +19,9 @@ module "ctags" {
 
 ### `expiresAfter`
 
-In the Sandbox environment resources must be tagged with an end date on when they are needed till.
+In the Sandbox environment resources must be tagged with an end date after which they are no longer needed.
+They will then be automatically deleted after this date.
+
 By default a tag will be added as `now() + 30 days`.
 
 You can customise this by setting an explicit date:
