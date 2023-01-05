@@ -388,7 +388,7 @@ aad-domain-services:
   namespace: ""
   slack:
     contact_channel: "#platops-help" 
-    build_notices_ch"nnel: ""
+    build_notices_channel: ""
   tags:
     application: "core"
     businessArea: "Cross-Cutting"
