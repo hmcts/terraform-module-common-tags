@@ -391,4 +391,4 @@ aad-domain-services:
     build_notices_ch"nnel: ""
   tags:
     application: "core"
-    businessArea: "CFT"
+    businessArea: "Cross-Cutting"
