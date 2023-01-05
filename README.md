@@ -1,24 +1,55 @@
-# Terraform module to reference common tags
+# terraform-module-common-tags 
 
-## Tagging policy documentation
+A Terraform module to reference common tags.
 
-https://tools.hmcts.net/confluence/display/DCO/Tagging+v0.4
+[Tagging policy documentation](https://tools.hmcts.net/confluence/display/DCO/Tagging+v0.4)
 
-## Requirements
+## Usage
 
-No requirements.
+This example shows usage of the module by passing only required  values.
 
-## Providers
+```terraform
+module "ctags" {
+  source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
+  environment = var.environment
+  product     = var.product
+  builtFrom   = var.builtFrom
+}
+```
 
-No providers.
+### `expiresAfter`
 
-## Modules
+In the Sandbox environment resources must be tagged with an end date after which they are no longer needed.
+They will then be automatically deleted after this date.
 
-No modules.
+By default a tag will be added as `now() + 30 days`.
 
-## Resources
+You can customise this by setting an explicit date:
 
-No resources.
+```terraform
+module "ctags" {
+  source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
+  environment = var.environment
+  product     = var.product
+  builtFrom   = var.builtFrom
+  expiresAfter = "2023-01-01" # YYYY-MM-DD
+}
+```
+
+Or by setting it to never expire with a date far into the future:
+
+```terraform
+module "ctags" {
+  source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
+  environment = var.environment
+  product     = var.product
+  builtFrom   = var.builtFrom
+  expiresAfter = "3000-01-01" # never expire
+}
+```
+
+<!-- BEGIN_TF_DOCS -->
+
 
 ## Inputs
 
@@ -35,3 +66,6 @@ No resources.
 | Name | Description |
 |------|-------------|
 | <a name="output_common_tags"></a> [common\_tags](#output\_common\_tags) | Returns a mapping of tags to assign. |
+<!-- END_TF_DOCS -->
+
+
