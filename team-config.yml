@@ -392,3 +392,13 @@ crime-platform:
   tags:
     application: "core"
     businessArea: "Crime"
+
+aad-domain-services:
+  team: "platform operations" 
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help" 
+    build_notices_channel: ""
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
