@@ -11,7 +11,7 @@ This example shows usage of the module by passing only required  values.
 ```terraform
 module "ctags" {
   source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
-  environment = var.environment
+  environment = var.env
   product     = var.product
   builtFrom   = var.builtFrom
 }
@@ -29,7 +29,7 @@ You can customise this by setting an explicit date:
 ```terraform
 module "ctags" {
   source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
-  environment = var.environment
+  environment = var.env
   product     = var.product
   builtFrom   = var.builtFrom
   expiresAfter = "2023-01-01" # YYYY-MM-DD
@@ -41,7 +41,7 @@ Or by setting it to never expire with a date far into the future:
 ```terraform
 module "ctags" {
   source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
-  environment = var.environment
+  environment = var.env
   product     = var.product
   builtFrom   = var.builtFrom
   expiresAfter = "3000-01-01" # never expire
