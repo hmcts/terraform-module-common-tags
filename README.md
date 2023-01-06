@@ -9,7 +9,7 @@ A Terraform module to reference common tags.
 This example shows usage of the module by passing only required  values.
 
 ```terraform
-module "ctags" {
+module "tags" {
   source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
   environment = var.env
   product     = var.product
@@ -27,7 +27,7 @@ By default a tag will be added as `now() + 30 days`.
 You can customise this by setting an explicit date:
 
 ```terraform
-module "ctags" {
+module "tags" {
   source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
   environment = var.env
   product     = var.product
@@ -39,7 +39,7 @@ module "ctags" {
 Or by setting it to never expire with a date far into the future:
 
 ```terraform
-module "ctags" {
+module "tags" {
   source      = "git::https://github.com/hmcts/terraform-module-common-tags.git?ref=master"
   environment = var.env
   product     = var.product
