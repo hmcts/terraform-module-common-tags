@@ -214,6 +214,15 @@ pip:
   tags:
     application: 'publishing-information-service'
     businessArea: "Cross-Cutting"
+pre:
+  team: "Pre Recorded Evidence"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: "#pre-builds"
+  tags:
+    application: 'pre-recorded-evidence'
+    businessArea: "Cross-Cutting"
 cvp:
   team: "Cloud Video Platform"
   namespace: "cvp"
