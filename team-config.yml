@@ -411,3 +411,12 @@ aad-domain-services:
   tags:
     application: "core"
     businessArea: "Cross-Cutting"
+shared-dgw:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: ""
+  tags:
+    application: "shared-dgw"
+    businessArea: "Cross-Cutting"
