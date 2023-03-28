@@ -416,7 +416,7 @@ shared-dgw:
   namespace: ""
   slack:
     contact_channel: "#platops-help"
-    build_notices_channel: ""
+    build_notices_channel: "#platops-build-notices"
   tags:
-    application: "shared-dgw"
+    application: "core"
     businessArea: "Cross-Cutting"
