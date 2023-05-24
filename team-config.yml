@@ -369,7 +369,7 @@ arm:
     contact_channel: ""
     build_notices_channel: ""
   tags:
-    application: "archiving-with-records-management"
+    application: "archive-with-records-management"
     businessArea: "Cross-Cutting"
 
 enterprise:
