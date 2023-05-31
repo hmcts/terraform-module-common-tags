@@ -411,3 +411,12 @@ aad-domain-services:
   tags:
     application: "core"
     businessArea: "Cross-Cutting"
+    
+darts:
+  team: "Darts Modernisation"
+  namespace: "darts-modernisation"
+  slack:
+    contact_channel: "#darts-devs"
+    build_notices_channel: "#darts-builds"
+  tags:
+    application: darts
