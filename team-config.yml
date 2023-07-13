@@ -401,6 +401,16 @@ martha:
   tags:
     application: "martha"
     businessArea: "cross-cutting"
+    
+allpay:
+  team: "AllPay"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "allpay"
+    businessArea: "cross-cutting"
 
 crime-platform:
   team: "Crime"
