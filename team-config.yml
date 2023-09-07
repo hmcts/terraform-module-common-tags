@@ -431,3 +431,13 @@ aad-domain-services:
   tags:
     application: "core"
     businessArea: "Cross-Cutting"
+
+glimr:
+  team: "Glimr"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "glimr"
+    businessArea: "cross-cutting" 
