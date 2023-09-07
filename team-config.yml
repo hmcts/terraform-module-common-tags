@@ -433,7 +433,7 @@ aad-domain-services:
     businessArea: "Cross-Cutting"
 
 glimr:
-  team: "Glimr"
+  team: "GLiMR"
   namespace: ""
   slack:
     contact_channel: ""
