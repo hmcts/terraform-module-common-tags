@@ -451,3 +451,14 @@ crime-portal:
   tags:
     application: "crime-portal"
     businessArea: "cross-cutting"
+
+dlrm-ingest:
+  team: "DLRM Data Ingestion"
+  namespace: ""
+  slack:
+    contact_channel: "#dtspo-orange"
+    build_notices_channel: ""
+  tags:
+    application: "dlrm-data-ingest"
+    businessArea: "cross-cutting"
+
