@@ -22,7 +22,7 @@ cft-platform:
   tags:
     application: "core"
     businessArea: "CFT"
-    
+
 app-proxy:
   team: "platform operations"
   namespace: ""
@@ -32,7 +32,7 @@ app-proxy:
   tags:
     application: "core"
     businessArea: "Cross-Cutting"
-  
+
 response:
   team: "platform operations"
   namespace: "response"
@@ -142,7 +142,7 @@ sds-jenkins:
   tags:
     application: "core"
     businessArea: "Cross-Cutting"
-    
+
 cft-jenkins:
   team: "platform operations"
   namespace: ""
@@ -205,7 +205,7 @@ ctsc:
     contact_channel: "#ctsc-master-builds"
     build_notices_channel: "#ctsc-master-builds"
   tags:
-    application: 'courts-tribunals-service-centre'
+    application: "courts-tribunals-service-centre"
     businessArea: "Cross-Cutting"
 vh:
   team: "Video Hearings"
@@ -214,7 +214,7 @@ vh:
     contact_channel: "#vh-devops"
     build_notices_channel: "#vh-builds"
   tags:
-    application: 'video-hearings-service'
+    application: "video-hearings-service"
     businessArea: "Cross-Cutting"
 wowza:
   team: "Video Hearings"
@@ -223,7 +223,7 @@ wowza:
     contact_channel: "#vh-devops"
     build_notices_channel: "#vh-builds"
   tags:
-    application: 'video-hearings-service'
+    application: "video-hearings-service"
     businessArea: "Cross-Cutting"
 pip:
   team: "Publishing and Information"
@@ -232,7 +232,7 @@ pip:
     contact_channel: "#vh-devops"
     build_notices_channel: "#vh-builds"
   tags:
-    application: 'publishing-information-service'
+    application: "publishing-information-service"
     businessArea: "Cross-Cutting"
 pre:
   team: "Pre Recorded Evidence"
@@ -241,7 +241,7 @@ pre:
     contact_channel: ""
     build_notices_channel: "#pre-builds"
   tags:
-    application: 'pre-recorded-evidence'
+    application: "pre-recorded-evidence"
     businessArea: "Cross-Cutting"
 cvp:
   team: "Cloud Video Platform"
@@ -250,7 +250,7 @@ cvp:
     contact_channel: "#vh-devops"
     build_notices_channel: "#vh-builds"
   tags:
-    application: 'cloud-video-platform'
+    application: "cloud-video-platform"
     businessArea: "Cross-Cutting"
 shared-image-gallery:
   team: "platform operations"
@@ -259,7 +259,7 @@ shared-image-gallery:
     contact_channel: "#platops-help"
     build_notices_channel: "#platops-build-notices"
   tags:
-    application: 'core'
+    application: "core"
     businessArea: "Cross-Cutting"
 
 caps:
@@ -399,7 +399,7 @@ enterprise:
     contact_channel: "#platops-help"
     build_notices_channel: "#platops-build-notices"
   tags:
-    application: 'core'
+    application: "core"
     businessArea: "Cross-Cutting"
 
 martha:
@@ -411,7 +411,7 @@ martha:
   tags:
     application: "martha"
     businessArea: "cross-cutting"
-    
+
 allpay:
   team: "AllPay"
   namespace: ""
@@ -433,11 +433,42 @@ crime-platform:
     businessArea: "Crime"
 
 aad-domain-services:
-  team: "platform operations" 
+  team: "platform operations"
   namespace: ""
   slack:
-    contact_channel: "#platops-help" 
+    contact_channel: "#platops-help"
     build_notices_channel: ""
   tags:
     application: "core"
     businessArea: "Cross-Cutting"
+
+glimr:
+  team: "GLiMR"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "glimr"
+    businessArea: "cross-cutting"
+
+crime-portal:
+  team: "Crime Portal"
+  namespace: ""
+  slack:
+    contact_channel: "#dtspo-orange"
+    build_notices_channel: ""
+  tags:
+    application: "crime-portal"
+    businessArea: "cross-cutting"
+
+dlrm-ingest:
+  team: "DLRM Data Ingestion"
+  namespace: ""
+  slack:
+    contact_channel: "#dtspo-orange"
+    build_notices_channel: ""
+  tags:
+    application: "dlrm-data-ingest"
+    businessArea: "cross-cutting"
+
