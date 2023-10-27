@@ -17,6 +17,13 @@ variable "autoShutdown" {
   type        = bool
   default     = false
 }
+
+variable "autoStart" {
+  description = "Enable auto start of resource"
+  type        = bool
+  default     = true
+}
+
 variable "expiresAfter" {
   description = "Expiry date of the resource. Valid format 'YYYY-MM-DD'. "
   type        = string

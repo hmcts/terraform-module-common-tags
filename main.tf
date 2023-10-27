@@ -11,6 +11,7 @@ locals {
 
   additional_tags = {
     autoShutdown = var.autoShutdown
+    autoStart    = var.autoStart
   }
 
   expiresAfter = var.expiresAfter == "0000-00-00" ? formatdate("YYYY-MM-DD", timeadd(timestamp(), "720h")) : var.expiresAfter

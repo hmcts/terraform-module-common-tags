@@ -56,6 +56,7 @@ module "tags" {
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_autoShutdown"></a> [autoShutdown](#input\_autoShutdown) | Enable auto shutdown of resource | `bool` | `false` | no |
+| <a name="input_autoStart"></a> [autoStart](#input\_autoStart) | Enable auto start of resource | `bool` | `true` | no |
 | <a name="input_builtFrom"></a> [builtFrom](#input\_builtFrom) | Name of the GitHub repository this application is being built from. | `string` | n/a | yes |
 | <a name="input_environment"></a> [environment](#input\_environment) | Name of the environment to deploy the resource. | `string` | n/a | yes |
 | <a name="input_expiresAfter"></a> [expiresAfter](#input\_expiresAfter) | Expiry date of the resource. Valid format 'YYYY-MM-DD'. | `string` | `"0000-00-00"` | no |
