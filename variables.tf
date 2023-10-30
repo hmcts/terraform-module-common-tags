@@ -18,7 +18,6 @@ variable "autoShutdown" {
   default     = false
 }
 
-
 variable "startupMode" {
   type    = string
   default = null
