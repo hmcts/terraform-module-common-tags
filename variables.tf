@@ -12,10 +12,15 @@ variable "builtFrom" {
   type        = string
 }
 
-# Acceptable values are true, false, on-demand (on-demand start-up cluster)
 variable "autoShutdown" {
   description = "Enable auto shutdown of resource"
+  type        = bool
   default     = false
+}
+
+variable "startupMode" {
+  type    = string
+  default = "always"
 }
 
 variable "expiresAfter" {
