@@ -14,14 +14,7 @@ variable "builtFrom" {
 
 variable "autoShutdown" {
   description = "Enable auto shutdown of resource"
-  type        = bool
   default     = false
-}
-
-variable "autoStart" {
-  description = "Enable auto start of resource"
-  type        = bool
-  default     = true
 }
 
 variable "expiresAfter" {
