@@ -20,7 +20,7 @@ variable "autoShutdown" {
 
 variable "startupMode" {
   type    = string
-  default = null
+  default = "always"
 }
 
 variable "expiresAfter" {
