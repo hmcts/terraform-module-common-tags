@@ -83,6 +83,16 @@ mi:
     application: "management-information"
     businessArea: "Cross-Cutting"
 
+dc:
+  team: "dc"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "data-catalogue"
+    businessArea: "Cross-Cutting"
+
 pet:
   team: "pet"
   namespace: ""
