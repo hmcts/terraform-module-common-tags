@@ -482,3 +482,13 @@ dlrm-ingest:
     application: "dlrm-data-ingest"
     businessArea: "cross-cutting"
 
+sdrs:
+  team: "SDRS"
+  namespace: ""
+  slack:
+    contact_channel: "#dtspo-orange"
+    build_notices_channel: ""
+  tags:
+    application: "sdrs"
+    businessArea: "cross-cutting"
+
