@@ -492,3 +492,15 @@ sdrs:
     application: "sdrs"
     businessArea: "cross-cutting"
 
+sdp-data-analytics:
+  team: "SDP Data Analytics"
+  namespace: ""
+  slack:
+    contact_channel: "#dtspo-orange"
+    build_notices_channel: ""
+  tags:
+    application: "sdp-data-analytics"
+    businessArea: "cross-cutting"
+
+
+
