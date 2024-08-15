@@ -23,6 +23,16 @@ cft-platform:
     application: "core"
     businessArea: "CFT"
 
+slack-help-bot:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "core"
+    businessArea: "CFT"
+
 app-proxy:
   team: "platform operations"
   namespace: ""
