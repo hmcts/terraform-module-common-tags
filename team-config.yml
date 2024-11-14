@@ -512,3 +512,13 @@ sdp-data-analytics:
   tags:
     application: "sdp-data-analytics"
     businessArea: "cross-cutting"
+
+atlassian:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "atlassian"
+    businessArea: "Cross-Cutting"
