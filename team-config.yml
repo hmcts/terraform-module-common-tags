@@ -523,7 +523,7 @@ atlassian:
     application: "atlassian"
     businessArea: "Cross-Cutting"
 
-dlrm-er:
+baubais:
   team: "platform operations"
   namespace: ""
   slack:
