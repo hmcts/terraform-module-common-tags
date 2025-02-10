@@ -530,5 +530,5 @@ baubais:
     contact_channel: "#platops-help"
     build_notices_channel: "#platops-build-notices"
   tags:
-    application: "dlrm-er"
+    application: "baubais"
     businessArea: "Cross-Cutting"
