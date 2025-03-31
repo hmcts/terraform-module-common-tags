@@ -532,3 +532,13 @@ baubais:
   tags:
     application: "baubais"
     businessArea: "Cross-Cutting"
+
+sct-rm:
+  team: "sct-resource-management"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "sct-rm"
+    businessArea: "Cross-Cutting"
