@@ -11,7 +11,7 @@ locals {
 
   additional_tags = {
     autoShutdown = var.autoShutdown
-    startupMode  = var.startupMode
+    startupMode  = var.autoShutdown == true ? var.startupMode : null
   }
   # if var.expiresAfter set to "0000-00-00", set default date to date of creation + 14 days
   expiresAfter = var.expiresAfter == "0000-00-00" ? formatdate("YYYY-MM-DD", timeadd(timestamp(), "336h")) : var.expiresAfter
