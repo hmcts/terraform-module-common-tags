@@ -532,3 +532,13 @@ baubais:
   tags:
     application: "dlrm-er"
     businessArea: "Cross-Cutting"
+
+ccd:
+  team: "ccd-devops"
+  namespace: ""
+  slack:
+    contact_channel: "#ccd-devops"
+    build_notices_channel: ""
+  tags:
+    application: "core-case-data"
+    businessArea: "CFT"
