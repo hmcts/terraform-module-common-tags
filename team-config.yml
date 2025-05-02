@@ -532,6 +532,7 @@ baubais:
   tags:
     application: "baubais"
     businessArea: "Cross-Cutting"
+
 ccd:
   team: "ccd-devops"
   namespace: ""
@@ -541,6 +542,7 @@ ccd:
   tags:
     application: "core-case-data"
     businessArea: "CFT"
+
 sct-rm:
   team: "sct-resource-management"
   namespace: ""
@@ -549,4 +551,14 @@ sct-rm:
     build_notices_channel: ""
   tags:
     application: "sct-rm"
+    businessArea: "Cross-Cutting"
+
+gaps2:
+  team: "heritage"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: ""
+  tags:
+    application: "gaps2"
     businessArea: "Cross-Cutting"
