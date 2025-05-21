@@ -562,3 +562,13 @@ gaps2:
   tags:
     application: "gaps2"
     businessArea: "Cross-Cutting"
+
+beetroot:
+  team: "platform operations"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: "#platops-build-notices"
+  tags:
+    application: "core"
+    businessArea: "Cross-Cutting"
