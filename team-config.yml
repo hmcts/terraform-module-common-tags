@@ -592,3 +592,13 @@ cactus:
   tags:
     application: "cactus"
     businessArea: "CFT"
+
+csds:
+  team: "csds"
+  namespace: ""
+  slack:
+    contact_channel: ""
+    build_notices_channel: ""
+  tags:
+    application: "csds"
+    businessArea: "CFT"
