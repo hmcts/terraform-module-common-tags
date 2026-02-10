@@ -38,13 +38,14 @@ locals {
     ptlsbox  = "Low"
     sbox-int = "Low"
     mgmt     = "High"
+    sit      = "Medium"
   }
 
   env_mapping = {
     production  = ["ptl", "prod", "prod-int", "mgmt", "management"]
     development = ["dev", "preview"]
     staging     = ["ldata", "stg", "aat", "nle", "nonprod", "nonprodi"]
-    testing     = ["test", "perftest"]
+    testing     = ["test", "perftest", "sit"]
     sandbox     = ["sandbox", "sbox", "ptlsbox", "sbox-int"]
     demo        = ["demo"]
     ithc        = ["ithc"]
