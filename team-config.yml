@@ -602,3 +602,13 @@ csds:
   tags:
     application: "csds"
     businessArea: "CFT"
+
+innovation:
+  team: "innovation"
+  namespace: ""
+  slack:
+    contact_channel: "#platops-help"
+    build_notices_channel: ""
+  tags:
+    application: "innovation"
+    businessArea: "Cross-Cutting"
