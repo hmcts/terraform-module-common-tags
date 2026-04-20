@@ -620,5 +620,5 @@ sps-platform:
     contact_channel: "#platops-help"
     build_notices_channel: "#platops-build-notices"
   tags:
-    application: "core"
+    application: "sps"
     businessArea: "Cross-Cutting"
