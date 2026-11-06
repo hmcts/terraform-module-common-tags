@@ -33,6 +33,16 @@ slack-help-bot:
     application: "core"
     businessArea: "CFT"
 
+ccpay-slack-help-bot:
+  team: "Fees/Pay"
+  namespace: ""
+  slack:
+    contact_channel: "#cc-payments"
+    build_notices_channel: "#fee-pay-nightly-pipeline"
+  tags:
+    application: "fees-and-payments"
+    businessArea: "CFT"
+
 app-proxy:
   team: "platform operations"
   namespace: ""
